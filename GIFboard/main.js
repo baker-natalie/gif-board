@@ -1,5 +1,5 @@
 //HTML variables
-var HTMLgifDiv = '<div class="gif"></div>'
+var HTMLgifDiv = '<div class="gif"></div>';
 
 /*var visionBoard = {
 	gifs: [ 'url(https://media.giphy.com/media/TZKN33JOD2yQ/giphy.gif)', 'url(https://media.giphy.com/media/Vwz4zdntMXrUY/giphy.gif)', 'url(https://media.giphy.com/media/3o6Zt3AX5mSM29lGUw/giphy.gif)', 'url(https://media.giphy.com/media/l0MYIC3CENWKuZZjW/giphy.gif)', 'url(https://media.giphy.com/media/3orieVaEDcLoNbCKCQ/giphy.gif)', 'url(https://media.giphy.com/media/xT0BKhunZXlEsnpz7q/giphy.gif)'
@@ -26,13 +26,13 @@ var visionBoard = {
 			url : 'url(https://media.giphy.com/media/xT0BKhunZXlEsnpz7q/giphy.gif)'
 		}
 	]
-}
+};
 
 visionBoard.display = function() {
 	for (var i = 0; i < visionBoard.gifs.length; i++) {
 		$(".vision-board").append(HTMLgifDiv);
 		$(".gif:last").css('background-image', visionBoard.gifs[i].url);
-	}
+	};
 };
 
 visionBoard.display();
